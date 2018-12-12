@@ -1,3 +1,5 @@
+
+
 function gestoreLoad() {
 	
 	try {
@@ -38,6 +40,21 @@ function gestoreApriMenu() {
 	   alert ("gestoreChiudiMenu " + e);
 	} 
  } 
+
+
+var PulsantiGioco["1","1","3","2","2","3","1"];
+
+var Profili=[
+	{id: "1",
+	titolo: "Profilo AIUTO",
+	descrizione: "Anvedi o"},
+	{id: "2",
+	titolo: "Profilo AIUTO",
+	descrizione: "Anvedi o"},
+	{id: "3",
+	titolo: "Profilo AIUTO",
+	descrizione: "Anvedi o"}
+]	
 
  // fungione che gestisce bottone avanti
  

@@ -124,16 +124,26 @@
 
 } 
 
-#Bottonesec4{
-	display: list-item;
-	padding: 0.2em 1em;
-	margin: 1em;
-	background-color: #3c4774;
-	position: relative;
-	text-align: center;
-	border-color: #000ffb; 
-	border-radius: 50em;
-	
+#Bottonesec4 {
+    color: #8e8e8e;
+    display: list-item;
+    padding: 0.2em 1em;
+    margin: 1em;
+    background-color: #393b44;
+    position: relative;
+    text-align: center;
+    /* border-radius: 50em; */
+    border-color: #6e7275;
+}
+
+#Bottonesec4:hover{
+	background-color: #eaeef0;
+	cursor:pointer;
+}
+
+#Bottonesec4:focus{
+	background-color: #54f813;
+	cursor:pointer;
 }
 
 element.style .wrapper{
@@ -1238,6 +1248,7 @@ div#vermenu {
 /*		FOOTER 		*/
 
 	#footer {
+		margin-top:20px;
 		padding: 5em 0 2em 0 ;
 		background-color: #1d242a;
 		text-align: center;
