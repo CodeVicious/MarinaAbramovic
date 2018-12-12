@@ -6,7 +6,7 @@ function gestoreLoad() {
  
 	   nodoCloseMenu = document.getElementById("close");
 	   nodoCloseMenu.onclick = gestoreChiudiMenu;
-	   console.log('ciaone ', nodoCloseMenu);
+	  
  
 	   nodoMenu = document.getElementById("menu");
 	   nodoLink = nodoMenu.getElementsByTagName("a");
@@ -41,23 +41,34 @@ function gestoreApriMenu() {
 
  // fungione che gestisce bottone avanti
  
- var immagine= 1;
- function Avanti(){
-
+var immagine = 1;
+function Avanti() {
 	immagine++;
 	if (immagine > 8)
-	immagine=1;
-  document.getElementById("Slider") .src="./images/Galleria/photo ("+ immagine +").jpg";
- 
+		immagine = 1;
+	document.getElementById("Slider").src = "./images/Galleria/photo_" + immagine + ".jpg";
+	showDescription(immagine);
+
 }
 // funzione che gestisce bottone indietro
 
 var immagine;
- function Indietro(){
-immagine--;
-if (immagine < 1)
-immagine=8;
-document.getElementById("Slider") .src="./images/Galleria/photo ("+ immagine +").jpg";
- 
+function Indietro() {
+	immagine--;
+	if (immagine < 1)
+		immagine = 8;
+	document.getElementById("Slider").src = "./images/Galleria/photo_" + immagine + ".jpg";
+	showDescription(immagine);
+}
+
+function showDescription(img){
+	images = document.getElementsByClassName("descPhoto");
+	for(i=0;i<images.length;i++)
+	{
+		images[i].classList.add("hide");
+	}
+	document.getElementById("foto"+img).classList.remove("hide");
+	
+	console.log(images);
 }
 
