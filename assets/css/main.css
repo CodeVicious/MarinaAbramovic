@@ -16,11 +16,7 @@
 		border: 3;
 		font-size: 100%;
 		font: inherit;
-		vertical-align: baseline;
-		text-align: left;
-		
-
-		
+		vertical-align: baseline;	
 	}
 
 	*, *:before, *:after {
@@ -232,11 +228,7 @@ element.style .wrapper{
 			letter-spacing: 0.225em;
 			text-transform: uppercase;
 			text-align: center;
-			color: #272530;
-			position: absolute;
-			top: 60%;
-			right: 50%;
-			transform: translate(+50%,+50%);
+			color: #ffffff;
 		}
 
 			#banner p a {
@@ -244,7 +236,7 @@ element.style .wrapper{
 			}
 
 	h1, h2, h3, h4 {
-		color: #272530;
+		color: #ffffff;
 		font-weight: 800;
 		letter-spacing: 0.225em;
 		line-height: 1em;
@@ -258,16 +250,12 @@ element.style .wrapper{
 		}
 
 		#banner h2 {
-			display: inline-block;		
+			display: inline-block;
 			font-size: 1.75em;
 			opacity: 1;
 			padding: 0.35em 1em;
-			position: absolute;
+			position: relative;
 			z-index: 1;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%,-50%);
-			color: #272530;
 		}
 
 			#banner h2:before, #banner h2:after {
@@ -406,8 +394,13 @@ element.style .wrapper{
 		}		
 		
 		#banner p {
-			width: 70%;
-			font-size: 13px;
+			width: 37%;
+			margin: auto;
+			font-size: 14px;
+			letter-spacing: 0.225em;
+			text-transform: uppercase;
+			text-align: center;
+			color: #ffffff;
 		}
 
 	}
@@ -795,15 +788,15 @@ div#vermenu {
 
 	#banner {
 		display: flex;				/*imposta un contenitore flessibile;*/
-		flex-direction: column; 	/*specifica la direzione dell'asse principale (main axis) su cui si dispongono i box flessibili nel contenitore*/
-		justify-content: center;	/*stabilisce la modalitÃ  di allineamento dei box flessibili sull'asse principale del contenitore*/
+		flex-direction: column; 	/*specifica la direzione dell’asse principale (main axis) su cui si dispongono i box flessibili nel contenitore*/
+		justify-content: center;	/*stabilisce la modalità di allineamento dei box flessibili sull’asse principale del contenitore*/
 		cursor: default;
 		height: 100vh;
 		min-height: 35em;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
-		padding: 12em 0 10em 0 ;
+		padding: 12em 0 10em 0;
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -1365,8 +1358,8 @@ div#vermenu {
 /*		LANDING 	*/
 	
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/m.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/m.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
