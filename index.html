@@ -187,24 +187,26 @@
 		<!-- Four -->
 		<div id="gioco" class="wrapper style3 spotlight">
 			<div id="buttons">
-				<button type="checkbox" onclick="Piuma()" id="Bottonesec4">Piuma</button>
-				<button type="checkbox" onclick="Rosa()" id="Bottonesec4">Rosa</button>
-				<button type="checkbox" onclick="Rossetto()" id="Bottonesec4">Rossetto</button>
-				<button type="checkbox" onclick="Pistola carica()" id="Bottonesec4">Pistola carica</button>
-				<button type="checkbox" onclick="Chiodi()" id="Bottonesec4">Chiodi</button>
-				<button type="checkbox" onclick="Miele()" id="Bottonesec4">Miele</button>
-				<button type="checkbox" onclick="Forbici()" id="Bottonesec4">Forbici</button>
+				<button id="Piuma" type="checkbox" onclick="Gioco('Piuma')" class="Bottonesec4">Piuma</button>
+				<button id="Rosa" type="checkbox" onclick="Gioco('Rosa')" class="Bottonesec4">Rosa</button>
+				<button id="Rossetto" type="checkbox" onclick="Gioco('Rossetto')" class="Bottonesec4">Rossetto</button>
+				<button id="PistolaCarica" type="checkbox" onclick="Gioco('PistolaCarica')" class="Bottonesec4">Pistola carica</button>
+				<button id="Chiodi" type="checkbox" onclick="Gioco('Chiodi')" class="Bottonesec4">Chiodi</button>
+				<button id="Miele" type="checkbox" onclick="Gioco('Miele')" class="Bottonesec4">Miele</button>
+				<button id="Forbici" type="checkbox" onclick="Gioco('Forbici')" class="Bottonesec4">Forbici</button>
+				<br/>
+				<button id="RESET" type="checkbox" onclick="Reset()" >RESET</button>
 			</div>
 			<div id="contentGame">
 				<section class="spotlight">
-					<div class="image ">
-						<img src="images/marina oro.jpg" alt="immagine">
+					<div  class="image ">
+						<img id="resIMG" src="" alt="immagine">
 
 					</div>
 					<div class="content">
 						<header class="align-center">
-							<h2>Scelto per te!</h2>
-							<p>Immagina di avere il corpo nudo di Marina Abramovic e seleziona tre oggetti</p>
+							<h2 id="resH"></h2>
+							<p id="resP"></p>
 						</header>
 					</div>
 				</section>
