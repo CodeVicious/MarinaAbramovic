@@ -42,7 +42,7 @@ function gestoreApriMenu() {
  } 
 
 
-var PulsantiGioco["1","1","3","2","2","3","1"];
+var PulsantiGioco=["1","1","3","2","2","3","1"];
 
 var Profili=[
 	{id: "1",
