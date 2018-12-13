@@ -690,13 +690,13 @@ div#vermenu ul {
 #banner {
 	display: flex;
 	/*imposta un contenitore flessibile;*/
-	flex-direction: column;
+	
 	/*specifica la direzione dell’asse principale (main axis) su cui si dispongono i box flessibili nel contenitore*/
 	justify-content: center;
 	/*stabilisce la modalità di allineamento dei box flessibili sull’asse principale del contenitore*/
 	cursor: default;
 	height: 100vh;
-	min-height: 35em;
+	min-height: 70em;
 	overflow: hidden;
 	position: relative;
 	text-align: center;
@@ -706,6 +706,7 @@ div#vermenu ul {
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center;
+	padding:5em 0 1em 0;
 }
 
 #banner .more {
@@ -760,7 +761,7 @@ div#vermenu ul {
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
-	padding: 0;
+	padding: 5em 0 1em 0;
 }
 
 .wrapper.style2 {
@@ -769,7 +770,7 @@ div#vermenu ul {
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
-	padding: 0;
+	padding: 5em 0 1em 0;
 }
 
 .wrapper.style3 {
@@ -779,7 +780,7 @@ div#vermenu ul {
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
-	padding: 0;
+	padding: 5em 0 1em 0;
 }
 
 .wrapper.style5 {
@@ -789,7 +790,13 @@ div#vermenu ul {
 
 .wrapper.style4 {
 	background-color: #252730;
-	padding: 1em 0 1em 0;
+	color: #eaeef0;
+	height: 100vh;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 0;
+	padding: 5em 0 1em 0;
 }
 
 @media screen and (max-width: 1280px) {
