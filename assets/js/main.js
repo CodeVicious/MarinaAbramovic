@@ -79,21 +79,21 @@ var PulsantiGioco = [
 var Profili = [
 	{ //Piuma...
 		profilo: 1,
-		img: "images/abra.jpg",
-		titolo: "Profilo AIUTO",
-		descrizione: "Anvedi o"
+		img: "images/filantropo5.jpg",
+		titolo: "FILANTROPO",
+		descrizione: "Il filantropo è colui che prova amore verso l’uomo (inteso come l’altro, il prossimo, l’umanità), di cui promuove la felicità ed il benessere attraverso le azioni e gli intenti. "
 	},
 	{
 		profilo: 2,
-		img: "images/abramovic.jpg",
-		titolo: "Profilo AIUTO",
-		descrizione: "Anvedi o"
+		img: "images/voluttuoso2.jpg",
+		titolo: "VOLUTTUOSO",
+		descrizione: "Individuo incline ai piaceri dati dai sensi, alla ricerca di sensazioni piacevoli ed esperienze inerenti alla corporeità. "
 	},
 	{
 		profilo: 3,
-		img: "images/m.jpg",
-		titolo: "Profilo AIUTO",
-		descrizione: "Anvedi o"
+		img: "images/prevaricatore5.jpg",
+		titolo: "PREVARICATORE",
+		descrizione: "Individuo che sfrutta la sua posizione privilegiata o di potere per sottomettere e provocare sofferenza fisica e/o psicologica nei confronti di un altro individuo più debole. Spesso tale soggetto ha una personalità arrogante e talvolta violenta. "
 	}
 ]
 
@@ -175,12 +175,12 @@ function Reset() {
 	resH = document.getElementById("resH");
 	resP = document.getElementById("resP");
 
-	resIMG.src= "images/marina oro.jpg";
+	resIMG.src= "images/marinaserpente.jpg";
 	resH.innerHTML = "Scelto per te!";
-	resP.innerHTML = "Immagina di avere il corpo nudoooooooooooooooo di Marina Abramovic e seleziona tre oggetti";
+	resP.innerHTML = "Immagina di trovarti di fronte al corpo di Marina Abramovic e di avere a disposizione alcuni degli oggetti utilizzati durante la performance Rhythm 0 scegline tre e scopri il tuo profilo psicologico!";
 }
 
-function checkStatus(identi) {
+function checkStatus() {
 	
 	if (clickGioco == 3) {
 
@@ -207,7 +207,7 @@ function arrayRemove(arr, value) { // Rimuove un elemento da un array. Utilizzat
 function visualizzaRisultato(){
 
 	var counts = [];
-	for(i=0;i<Profili.length;i++){
+	for(i=0;i<Profili.length+1;i++){
 	 counts[i]=0;
 	}
 			
